@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Box Model</title>
+
+	<style>
+		* {
+			box-sizing: border-box;
+		}
+          
+          body {
+          	background-color: grey;
+            margin: 0;
+            padding: 0;
+
+          }	
+
+          #box {
+               background-color: blue;
+               margin: 10px;
+               padding: 5px;
+               border: 5px solid black;
+               height: 50px;
+               overflow: visible;
+            /*overflow have auto, hidden, visible, scroll*/
+
+               width: 300px;
+
+
+          }
+
+          #content {
+           background-color: green;
+           border: 1px solid black;
+          }	  
+
+          h1 {
+          	text-align: center;
+            margin-bottom: 40px;
+          }
+ 
+	</style>
+</head>
+<h1>The Box Model</h1>
+<body>
+	<div id="box">
+	<div id="content">It is not the critic who counts; not the man who points out how the man stumbles, or where the doer of deeds could have done them better. The credit belongs to the man who is actually in the arrena, whose face is marred by dust and sweat and blood; who strives valiantly; eho errs, who comes short again and again, because there is no effort without an error and shortcoming; but who dose actually strive to do the deeds
+	</div>
+    </div>
+
+</body>
+</html>
