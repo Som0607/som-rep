@@ -1,0 +1,2 @@
+somGreeter.sayHello();
+samGreeter.sayHi();
